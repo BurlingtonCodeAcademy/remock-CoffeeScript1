@@ -68,20 +68,8 @@ img{
 }
 
 #bold{
-    font-weight: bold;
+    font-weight:bold;
 }
-
-#tellMeMore{
-    display: flex;
-    height:40px;
-    widows: 100px;
-    background-color: rgb(194, 78, 57);
-    margin-bottom: 80px;
-    justify-items: center;
-    font-weight: bold;
-}
-
-
 
 /*--------------------------- center of the page ------------------------------------------- */
 
@@ -92,20 +80,20 @@ img{
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    border: 1px,solid black;
+
 }
 
 
 
 #quoteBanner{
     display:flex;
-    height:28vh;
+    height:20vh;
     width:100vw;
-    background-color: rgb(184, 174, 174);
+    background-color: grey;
     font-size: xx-large;
     padding-top: 100px;
     justify-content: center;
-    align-content: center;
+    align-content:center;
 }
 
 
@@ -113,13 +101,12 @@ img{
     display:flex;
     height:auto;
     width:60vw;
-    border: 1px solid black;
     flex-direction: row;
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
-.wide-column{
+#wide-column{
     display:flex;
     height:auto;
     width:65%;
@@ -127,7 +114,7 @@ img{
     flex-direction: column;
 }
 
-.narrow-column{
+#narrow-column{
     display:flex;
     height:auto;
     width:35%;
@@ -136,6 +123,38 @@ img{
 
 }
 
+#rectangle{
+    height:150px;
+    width:400px;
+}
+
+#dateButton{
+    height:30px;
+    width:100px;
+    background-color: grey;
+    color:white;
+}
+
+
+#redButton{
+    display: flex;
+    height:40px;
+    width:150px;
+    background-color: rgb(194, 78, 57);
+    margin-bottom: 80px;
+    margin-top:50px;
+    justify-items: center;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    color:white;
+    border:none;
+}
+
+.largerPost{
+    display:flex;
+    flex-direction:column;
+}
 
 
 
@@ -147,7 +166,7 @@ img{
     width:100vw;
     justify-content:center;
     align-items:center;
-    background-color: rgb(184, 174, 174);
+    background-color: rgb(180, 181, 184);
 }
 
 #footer{
@@ -196,11 +215,13 @@ img{
     width: 31.5vw;
 }
 
-#message-button {
+#msgButton {
     width: 10vw;
     background-color: rgb(194, 78, 57);
     height: 5vh;
-    border: none;
+    border:none;
+    color:white;
+    font-weight:bold;
 }
 
 
@@ -246,11 +267,21 @@ img{
 }
 
 
-
-
 #footerlink{
     height:15px;
     width:15px;
 }
 
 
+
+/* ------------------POST ONLY---------- */
+
+#centerPost{
+    width:50vw;
+    /* justify-self: center;
+    justify-items: center; */
+}
+
+#continueImage{
+    width:50vw;
+}
