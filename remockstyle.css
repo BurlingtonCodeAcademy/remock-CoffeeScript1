@@ -1,287 +1,311 @@
-
 /*  This removes the margin and padding from  all pages targetting the body tag */
-body{
-    margin: 0;
-    padding: 0; 
+body {
+  margin: 0;
+  padding: 0;
 }
 
-/*-------------- Top part of the 4 pages in the website----------- */
+/*------------------------ Top part of the 4 pages in the website----------- */
 
-#allPagesTop{
-    display:flex;
-    height:auto;
-    width: 100vw;
-    justify-content:space-between;
-    align-items:center;
-    flex-direction: column;
+#allPagesTop {
+  display: flex;
+  height: auto;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
-/* ----------------------------------Header for all pages--------------  */
+/* ----------------------------------Header for all pages---------------------- */
 
 #allPagesHeader {
-    display: flex;
-    height:15vh;
-    width:100vw;
-    justify-content:center;
-    align-items: center;
-    text-align:center;
-    flex-direction: column;
-    font-weight:bold;
-    color: rgb(194, 78, 57);
-    padding-bottom: 20px;
+  display: flex;
+  height: 15vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-weight: bold;
+  color: rgb(194, 78, 57);
+  padding-bottom: 20px;
+  text-decoration: none;
 }
 
 /* Home subtitle */
 
-h2{
-    display:flex;
-    font-weight:normal;
-    font-size: smaller; 
-    justify-self: center;
-    text-align:center;  
-    color: black
-} 
-
-#imageWrapper{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height:40vh;
-    width: 100vw;
-    flex-direction: column;
-    margin-top:50px;
-    font-size: larger;
-    border-top: 1px solid black;
+h2 {
+  display: flex;
+  font-weight: normal;
+  font-size: smaller;
+  justify-self: center;
+  text-align: center;
+  color: black;
+  text-decoration: none;
 }
 
-#imageRow{
-    display:flex;
-    align-content:center;
-    height:40vh;
-    width:100vw;
-    justify-content:center;
+#line {
+  display: flex;
+  border: solid 1px grey;
+  width: 48vw;
+  height: 2px;
+  margin-top:30px;
 }
 
-img{
-    height:150px;
-    padding: 30px 30px
+#imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 100vw;
+  flex-direction: column;
+  margin-top: 50px;
+  font-size: larger;
 }
 
-#bold{
-    font-weight:bold;
+#imageRow {
+  display: flex;
+  align-content: center;
+  height: 40vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+img {
+  height: 150px;
+  padding: 30px 30px;
+}
+
+#bold {
+  font-weight: bold;
 }
 
 /*--------------------------- center of the page ------------------------------------------- */
 
-#centerWrapper{
-    display:flex;
-    height:auto;
-    width:100vw;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-
+#centerWrapper {
+  display: flex;
+  height: auto;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-
-
-#quoteBanner{
-    display:flex;
-    height:20vh;
-    width:100vw;
-    background-color: grey;
-    font-size: xx-large;
-    padding-top: 100px;
-    justify-content: center;
-    align-content:center;
+#quoteBanner {
+  display: flex;
+  height: 20vh;
+  width: 100vw;
+  background-color: rgb(47, 43, 58);
+  font-size: xx-large;
+  padding-top: 100px;
+  justify-content: center;
+  align-content: center;
+  color:white;
 }
 
-
-.postColumns{
-    display:flex;
-    height:auto;
-    width:60vw;
-    flex-direction: row;
-    margin-top: 60px;
-    margin-bottom: 60px;
+.postColumns {
+  display: flex;
+  height: auto;
+  width: 60vw;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
-#wide-column{
-    display:flex;
-    height:auto;
-    width:65%;
-    border: 1px solid black;
-    flex-direction: column;
+#wide-column {
+  display: flex;
+  height: auto;
+  width: 65%;
+  border: 1px solid black;
+  flex-direction: column;
 }
 
-#narrow-column{
-    display:flex;
-    height:auto;
-    width:35%;
-    border: 1px solid black;
-    flex-direction: column;
-
+#narrow-column {
+  display: flex;
+  height: auto;
+  width: 35%;
+  border: 1px solid black;
+  flex-direction: column;
 }
 
-#rectangle{
-    height:150px;
-    width:400px;
+.linkPostContainer{
+    text-justify: center;
+    text-align:center;
 }
 
-#dateButton{
-    height:30px;
-    width:100px;
-    background-color: grey;
-    color:white;
+.linkPost{
+    text-justify:center;
 }
 
-
-#redButton{
-    display: flex;
-    height:40px;
-    width:150px;
-    background-color: rgb(194, 78, 57);
-    margin-bottom: 80px;
-    margin-top:50px;
-    justify-items: center;
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-    color:white;
-    border:none;
+#rectangle {
+  height: 160px;
+  width: 180px;
+  float:left;
 }
 
-.largerPost{
-    display:flex;
-    flex-direction:column;
+#dateButton {
+  height: 30px;
+  width: 100px;
+  background-color: grey;
+  color: white;
 }
 
+#redButton {
+  display: flex;
+  height: 40px;
+  width: 150px;
+  background-color: rgb(194, 78, 57);
+  margin-bottom: 80px;
+  margin-top: 50px;
+  justify-items: center;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border: none;
+}
 
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.largerPost {
+  display: flex;
+  flex-direction: column;
+}
 
 /* ------------Bottom of the page. Repeats across the 4 pages of the website--------------- */
 
-#footerWrapper{
-    display:flex;
-    height:50vh;
-    width:100vw;
-    justify-content:center;
-    align-items:center;
-    background-color: rgb(180, 181, 184);
+#footerWrapper {
+  display: flex;
+  height: 50vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(180, 181, 184);
 }
 
-#footer{
-    display:flex;
-    height: 30vh;
-    width: 70vw;
-    justify-content:center;
-    align-items:center;
-    flex-direction: column;
+#footer {
+  display: flex;
+  height: 30vh;
+  width: 70vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-#footerBody{
-    display:flex;
-    height:25vh;
-    width:70vw;
-    margin-top:15px
+#footerBody {
+  display: flex;
+  height: 25vh;
+  width: 70vw;
+  margin-top: 15px;
 }
-
-
 
 /* -----------------------Left side of the footer------------------------------ */
 
-#footer-left{
-    display:flex;
-    width:35vw;
-    height:25vh;
-    justify-content: space-evenly;
-    flex-direction: column;
+#footer-left {
+  display: flex;
+  width: 35vw;
+  height: 25vh;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
-#name-email{
-    display:flex;
+#name-email {
+  display: flex;
 }
 
-#name{
-    width: 15vw;
-    margin-right:1vw;
+#name {
+  width: 15vw;
+  margin-right: 1vw;
 }
 
-#email{
-    width: 15vw;
+#email {
+  width: 15vw;
 }
 
 #textArea {
-    resize: none;
-    width: 31.5vw;
+  resize: none;
+  width: 31.5vw;
 }
 
 #msgButton {
-    width: 10vw;
-    background-color: rgb(194, 78, 57);
-    height: 5vh;
-    border:none;
-    color:white;
-    font-weight:bold;
+  width: 10vw;
+  background-color: rgb(194, 78, 57);
+  height: 5vh;
+  border: none;
+  color: white;
+  font-weight: bold;
 }
-
 
 /* -------------------------Right side of the footer------------------------- */
 
 #loremAndLinks {
-    width: 35vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+  width: 35vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-#logosWrapper{
-    display:flex;
-    justify-content: space-between;
+#logosWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logosLeft {
+  display: flex;
+  height: 20vh;
+  width: 20vw;
+  flex-direction: column;
+}
+
+#logosRight {
+  display: flex;
+  height: 20vh;
+  width: 20vw;
+  flex-direction: column;
+}
+
+#contact {
+  display: flex;
+  height: 20vh;
+  width: 20vw;
+  flex-direction: column;
+}
+
+.logo-contact {
+  display: flex;
+  width: 100%;
+}
+
+#footerlink {
+  height: 15px;
+  width: 15px;
 }
 
 
-#logosLeft{
-        display: flex;
-        height:20vh;
-        width:20vw;
-        flex-direction: column;
+
+/* CONTINUE READING PAGE  */
+
+#continueImage{
+width: auto;
+float:left;
+width:30vw;
 }
-
-#logosRight{
-    display: flex;
-    height:20vh;
-    width:20vw;
-    flex-direction: column;
-}
-
-#contact{
-    display: flex;
-    height:20vh;
-    width:20vw;
-    flex-direction: column;
-}
-
-.logo-contact{
-    display:flex;
-    width:100%;
-}
-
-
-#footerlink{
-    height:15px;
-    width:15px;
-}
-
-
 
 /* ------------------POST ONLY---------- */
 
-#centerPost{
-    width:50vw;
-    /* justify-self: center;
-    justify-items: center; */
+
+#blogText{
+align-self:center;    
 }
 
-#continueImage{
-    width:50vw;
-}
+/* #centerPost {
+  width: 50vw;
+  /* justify-self: center;
+    justify-items: center; */
+/* } */
+
+/* #continueImage {
+  width: 50vw;
+} */
