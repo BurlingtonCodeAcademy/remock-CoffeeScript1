@@ -52,9 +52,9 @@ h2 {
 #line {
   display: flex;
   border: solid 1px grey;
-  width: 45vw;
+  width: 60vw;
   height: 2px;
-  margin-top:30px;
+  margin-top:40px;
 }
 
 /* ------------------Row of images-------------------*/
@@ -127,7 +127,7 @@ img {
   display: flex;
   height: auto;
   width: 65%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   flex-direction: column;
 }
 
@@ -135,7 +135,7 @@ img {
   display: flex;
   height: auto;
   width: 35%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   flex-direction: column;
 }
 
@@ -208,7 +208,7 @@ a:link {
 #smallLine{
   display: flex;
   border: solid 1px grey;
-  width: 400px;
+  width: 20vw;
   height: 2px;
   margin-top:10px; 
   margin-bottom:10px;  
@@ -226,8 +226,8 @@ a:link {
 
 #footer {
   display: flex;
-  height: 30vh;
-  width: 70vw;
+  height: 50vh;
+  width: 60vw;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -236,7 +236,7 @@ a:link {
 #footerBody {
   display: flex;
   height: 25vh;
-  width: 70vw;
+  width: 60vw;
   margin-top: 15px;
 }
 
@@ -250,22 +250,26 @@ a:link {
   flex-direction: column;
 }
 
-#name-email {
-  display: flex;
+#formFooter{
+  height:auto;
+  width:26vw;
+  display:flex;
+  flex-direction:row;
+  margin-bottom:2vh;
 }
 
 #name {
-  width: 15vw;
+  width: 12.5vw;
   margin-right: 1vw;
 }
 
 #email {
-  width: 15vw;
+  width: 12.5vw;
 }
 
 #textArea {
   resize: none;
-  width: 31.5vw;
+  width: 25.5vw;
 }
 
 #msgButton {
@@ -341,15 +345,20 @@ width:30vw;
 
 #centerPost{
   display:flex;
-  width:60vw;
+  width:80vw;
   align-content:center;
   justify-items:center;
  }
 
  
 #blogText{
+display:flex;
 text-align:center;
-width:55vw; 
+align-items:center;
+flex-direction:column;
+width:80vw; 
+margin-left:500px;
+text-align:auto;
 }
 
 #postOnlyImage{
@@ -363,6 +372,34 @@ align-items:center;
    
 }
 
+#floatLeftPlease{
+float:left;
+}
 
+
+
+/*  learn more page CSS */
+
+#narrow-reverse{
+  display: flex;
+  height: auto;
+  width: 35%;
+  /* border: 1px solid black; */
+  flex-direction: column;
+}
+
+#wide-reverse{
+  display: flex;
+  height: auto;
+  width: 65%;
+  /* border: 1px solid black; */
+  flex-direction: column;
+  align-items:center;
+}
+
+#learn-more-image{
+  height:200px;
+  width:700px;
+}
 
 
