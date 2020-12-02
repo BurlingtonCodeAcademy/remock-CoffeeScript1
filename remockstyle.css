@@ -129,6 +129,7 @@ img {
   width: 65%;
   /* border: 1px solid black; */
   flex-direction: column;
+  margin-right:50px;
 }
 
 #narrow-column {
@@ -139,14 +140,8 @@ img {
   flex-direction: column;
 }
 
-.linkPostContainer{
-    text-justify: center;
-    text-align:center;
-}
 
-.linkPost{
-    text-justify:center;
-}
+/* ----- wide column picture ------ */
 
 #rectangle{
   width: 90%;
@@ -155,19 +150,26 @@ img {
   margin-bottom:20px;
 }
 
+/*  ----- styling of pictures in small posts on the bottom of the narrow columns  */
+
 #square {
   height: 160px;
   width: 180px;
   float:left;
 }
 
+ /* grey buttons with dates on left side small posts  */
+
 #dateButton {
   height: 30px;
   width: 100px;
   background-color: grey;
   color: white;
+  margin-top:15px;
+  margin-bottom:15px;
 }
 
+/*  ---- red link buttons ----- */
 #redButton {
   display: flex;
   height: 40px;
@@ -176,6 +178,7 @@ img {
   margin-bottom: 80px;
   margin-top: 50px;
   justify-items: center;
+  align-items:center;
   font-weight: bold;
   text-align: center;
   justify-content: center;
@@ -183,9 +186,15 @@ img {
   border: none;
 }
 
+
 a:link {
   text-decoration: none;
   color: black;
+}
+
+#redButton a {
+text-decoration:none; 
+color:white;
 }
 
 .largerPost {
@@ -378,7 +387,7 @@ float:left;
 
 
 
-/*  learn more page CSS */
+/* ----------learn more page CSS-------------*/
 
 #narrow-reverse{
   display: flex;
@@ -386,6 +395,7 @@ float:left;
   width: 35%;
   /* border: 1px solid black; */
   flex-direction: column;
+  margin-right:50px;
 }
 
 #wide-reverse{
