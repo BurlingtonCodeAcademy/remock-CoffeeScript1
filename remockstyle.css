@@ -1,0 +1,416 @@
+/*  This removes the margin and padding from  all pages targetting the body tag */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------------ Top part of the 4 pages in the website----------- */
+
+#allPagesTop {
+  display: flex;
+  height: auto;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* ----------------------------------Header for all pages---------------------- */
+
+#allPagesHeader {
+  display: flex;
+  height: 15vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-weight: bold;
+  color: rgb(194, 78, 57);
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+h1{
+  color: rgb(194, 78, 57);
+ }
+
+/* --------------------Home subtitle-----------------*/
+
+h2 {
+  display: flex;
+  font-weight: normal;
+  font-size: smaller;
+  justify-self: center;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+/* ------ Line under title and subtitle under all pages----- */
+
+#line {
+  display: flex;
+  border: solid 1px grey;
+  width: 60vw;
+  height: 2px;
+  margin-top:40px;
+}
+
+/* ------------------Row of images-------------------*/
+
+#imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 100vw;
+  flex-direction: column;
+  margin-top: 50px;
+  font-size: larger;
+}
+
+#imageRow {
+  display: flex;
+  align-content: center;
+  height: 40vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+img {
+  height: 150px;
+  padding: 30px 30px;
+}
+
+/* -------------Bolding span of words in subtitles -------------- */
+#bold {
+  font-weight: bold;
+}
+
+/*--------------------------- center of the page ------------------------------------------- */
+
+#centerWrapper {
+  display: flex;
+  height: auto;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#quoteBanner {
+  display: flex;
+  height: 20vh;
+  width: 100vw;
+  background-color: rgb(47, 43, 58);
+  font-size: xx-large;
+  padding-top: 100px;
+  justify-content: center;
+  align-content: center;
+  color:white;
+}
+
+/*  -----------------Center of the page ---------------*/
+
+.postColumns {
+  display: flex;
+  height: auto;
+  width: 60vw;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#wide-column {
+  display: flex;
+  height: auto;
+  width: 65%;
+  /* border: 1px solid black; */
+  flex-direction: column;
+  margin-right:50px;
+}
+
+#narrow-column {
+  display: flex;
+  height: auto;
+  width: 35%;
+  /* border: 1px solid black; */
+  flex-direction: column;
+}
+
+
+/* ----- wide column picture ------ */
+
+#rectangle{
+  width: 90%;
+  height:200px;
+  margin-top:50px;
+  margin-bottom:20px;
+}
+
+/*  ----- styling of pictures in small posts on the bottom of the narrow columns  */
+
+#square {
+  height: 160px;
+  width: 180px;
+  float:left;
+}
+
+ /* grey buttons with dates on left side small posts  */
+
+#dateButton {
+  height: 30px;
+  width: 100px;
+  background-color: grey;
+  color: white;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+/*  ---- red link buttons ----- */
+#redButton {
+  display: flex;
+  height: 40px;
+  width: 150px;
+  background-color: rgb(194, 78, 57);
+  margin-bottom: 80px;
+  margin-top: 50px;
+  justify-items: center;
+  align-items:center;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  border: none;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#redButton a {
+text-decoration:none; 
+color:white;
+}
+
+.largerPost {
+  display: flex;
+  flex-direction: column;
+}
+
+#lineWideColumn{
+  display: flex;
+  border: solid 1px grey;
+  width: 39vw;
+  height: 2px;
+  margin-top:30px; 
+}
+
+#demoPhotoContainer{
+  margin-top:70px;
+}
+
+#smallLine{
+  display: flex;
+  border: solid 1px grey;
+  width: 20vw;
+  height: 2px;
+  margin-top:10px; 
+  margin-bottom:10px;  
+}
+/* ------------Bottom of the page. Repeats across the 4 pages of the website--------------- */
+
+#footerWrapper {
+  display: flex;
+  height: 50vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(180, 181, 184);
+}
+
+#footer {
+  display: flex;
+  height: 50vh;
+  width: 60vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#footerBody {
+  display: flex;
+  height: 25vh;
+  width: 60vw;
+  margin-top: 15px;
+}
+
+/* -----------------------Left side of the footer------------------------------ */
+
+#footer-left {
+  display: flex;
+  width: 35vw;
+  height: 25vh;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#formFooter{
+  height:auto;
+  width:26vw;
+  display:flex;
+  flex-direction:row;
+  margin-bottom:2vh;
+}
+
+#name {
+  width: 12.5vw;
+  margin-right: 1vw;
+}
+
+#email {
+  width: 12.5vw;
+}
+
+#textArea {
+  resize: none;
+  width: 25.5vw;
+}
+
+#msgButton {
+  width: 10vw;
+  background-color: rgb(194, 78, 57);
+  height: 5vh;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* -------------------------Right side of the footer------------------------- */
+
+#loremAndLinks {
+  width: 35vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#logosWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logosLeft {
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-direction: column;
+}
+
+#logosRight {
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-direction: column;
+}
+
+#contact {
+  display: flex;
+  height: 20vh;
+  width: 20vw;
+  flex-direction: column;
+}
+
+.logo-contact {
+  display: flex;
+  width: auto;
+  height:auto;
+}
+
+#footerlink {
+  height: 15px;
+  width: 15px;
+  padding:10px 30px;
+}
+
+
+
+/*----------------CONTINUE READING PAGE ----------------*/
+
+#continueImage{
+width: auto;
+width:30vw;
+}
+
+#bold{
+  font-style: bold;
+}
+
+
+
+/* -----------------------------POST ONLY---------------- */
+
+#centerPost{
+  display:flex;
+  width:80vw;
+  align-content:center;
+  justify-items:center;
+ }
+
+ 
+#blogText{
+display:flex;
+text-align:center;
+align-items:center;
+flex-direction:column;
+width:80vw; 
+margin-left:500px;
+}
+
+#postOnlyImage{
+padding:50px 50px 50px 50px;
+width:600px;
+height:200px;
+}
+
+#blogText{
+align-items:center;
+   
+}
+
+#floatLeftPlease{
+float:left;
+}
+
+
+
+/* ----------learn more page CSS-------------*/
+
+#narrow-reverse{
+  display: flex;
+  height: auto;
+  width: 35vw;
+  /* border: 1px solid black; */
+  flex-direction: column;
+  margin-right:50px;
+}
+
+#wide-reverse{
+  display: flex;
+  height: auto;
+  width: 65vw;
+  /* border: 1px solid black; */
+  flex-direction: column;
+  align-items:center;
+}
+
+#learn-more-image{
+  height:200px;
+  width:700px;
+}
+
+
