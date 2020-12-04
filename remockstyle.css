@@ -334,6 +334,7 @@ color:white;
 #footerlink {
   height: 15px;
   width: 15px;
+  padding:10px 30px;
 }
 
 
@@ -368,7 +369,6 @@ align-items:center;
 flex-direction:column;
 width:80vw; 
 margin-left:500px;
-text-align:auto;
 }
 
 #postOnlyImage{
