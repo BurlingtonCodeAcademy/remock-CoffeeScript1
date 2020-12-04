@@ -306,15 +306,15 @@ color:white;
 
 #logosLeft {
   display: flex;
-  height: 20vh;
-  width: 20vw;
+  height: auto;
+  width: auto;
   flex-direction: column;
 }
 
 #logosRight {
   display: flex;
-  height: 20vh;
-  width: 20vw;
+  height: auto;
+  width: auto;
   flex-direction: column;
 }
 
@@ -327,7 +327,8 @@ color:white;
 
 .logo-contact {
   display: flex;
-  width: 100%;
+  width: auto;
+  height:auto;
 }
 
 #footerlink {
@@ -392,7 +393,7 @@ float:left;
 #narrow-reverse{
   display: flex;
   height: auto;
-  width: 35%;
+  width: 35vw;
   /* border: 1px solid black; */
   flex-direction: column;
   margin-right:50px;
@@ -401,7 +402,7 @@ float:left;
 #wide-reverse{
   display: flex;
   height: auto;
-  width: 65%;
+  width: 65vw;
   /* border: 1px solid black; */
   flex-direction: column;
   align-items:center;
